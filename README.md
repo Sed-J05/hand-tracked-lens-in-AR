@@ -39,7 +39,7 @@ py -3.11 -m venv venv
 
 **3. Next install dependencies (inside the same folder's terminal) :**
 ```bash
-pip install opencv-python mediapipe numpy
+pip install opencv-python numpy mediapipe==0.10.9 protobuf==3.20.3
 ```
 
 **4. Finally, to run it, simply (inside the same folder's terminal) :**
