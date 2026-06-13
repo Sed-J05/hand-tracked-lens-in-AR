@@ -26,5 +26,25 @@ This project uses advanced hand-tracking, dynamic distance thresholds, and geome
 
 **1. Clone the repository:**
 ```bash
-git clone [https://github.com/your-username/Magic-Lens-AR.git](https://github.com/your-username/Magic-Lens-AR.git)
-cd Magic-Lens-AR
+git clone https://github.com/Sed-J05/hand-tracked-lens-in-AR.git
+cd hand-tracked-lens-in-AR
+```
+
+**2. For running it, first (in terminal inside the project folder):**
+```bash
+# Windows
+py -3.11 -m venv venv
+.\venv\Scripts\activate
+```
+
+**3. Next install dependencies (inside the same folder's terminal) :**
+```bash
+pip install opencv-python mediapipe numpy
+```
+
+**4. Finally, to run it, simply (inside the same folder's terminal) : **
+```bash
+python magic_lens.py
+```
+
+
