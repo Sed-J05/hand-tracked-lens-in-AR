@@ -42,7 +42,7 @@ py -3.11 -m venv venv
 pip install opencv-python mediapipe numpy
 ```
 
-**4. Finally, to run it, simply (inside the same folder's terminal) : **
+**4. Finally, to run it, simply (inside the same folder's terminal) :**
 ```bash
 python magic_lens.py
 ```
